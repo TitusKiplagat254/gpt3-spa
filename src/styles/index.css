@@ -4,10 +4,12 @@
   --font-family: "Manrope", sans-serif;
 
   --color-bg: #040c18;
+  --color-footer: #031b34;
 }
 
 body {
   background: var(--color-bg);
+  color: white;
 }
 
 a {
