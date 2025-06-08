@@ -4,3 +4,36 @@
   margin: 0;
   scroll-behavior: smooth;
 }
+
+body {
+  background: var(--color-bg);
+  color: white;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+.gradient__text {
+  background: var(--gradient-text);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.section__padding {
+  padding: 4rem 6rem;
+}
+
+@media screen and (max-width: 700px) {
+  .section__padding {
+    padding: 4rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .section__padding {
+    padding: 4rem 2rem;
+  }
+}
