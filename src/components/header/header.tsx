@@ -1,8 +1,8 @@
 import { useState } from "react";
-import logo from "../../assets/logo.svg";
+import { logo } from "../../assets";
+import { RiCloseFill, RiMenu3Fill } from "../icons.ts";
 
 import "./header.css";
-import { RiCloseFill, RiMenu3Fill } from "react-icons/ri";
 
 const Header = () => {
 	const [toggleMenu, setToggleMenu] = useState(false);

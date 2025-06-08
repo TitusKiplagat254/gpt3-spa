@@ -12,8 +12,10 @@ import "./styles/app.css";
 function App() {
 	return (
 		<>
-			<Header />
-			<Home />
+			<div className="gradient__bg">
+				<Header />
+				<Home />
+			</div>
 			<Brand />
 			<WhatIsGPT />
 			<Features />

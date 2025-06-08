@@ -8,13 +8,3 @@
 
   --gradient-text: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
 }
-
-body {
-  background: var(--color-bg);
-  color: white;
-}
-
-a {
-  color: unset;
-  text-decoration: none;
-}

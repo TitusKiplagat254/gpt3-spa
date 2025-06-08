@@ -1,5 +1,4 @@
-import ai from "../../../assets/ai.png";
-import people from "../../../assets/people.png";
+import { ai, people } from "../../../assets";
 
 import "./home.css";
 
