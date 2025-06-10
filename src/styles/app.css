@@ -26,6 +26,10 @@ a {
   padding: 4rem 6rem;
 }
 
+.section__margin {
+  margin: 4rem 6rem;
+}
+
 .gradient__bg {
   background: -moz-radial-gradient(
     circle at 3% 25%,
@@ -66,10 +70,18 @@ a {
   .section__padding {
     padding: 4rem;
   }
+
+  .section__margin {
+    margin: 4rem;
+  }
 }
 
 @media screen and (max-width: 550px) {
   .section__padding {
     padding: 4rem 2rem;
+  }
+
+  .section__margin {
+    margin: 4rem 2rem;
   }
 }
