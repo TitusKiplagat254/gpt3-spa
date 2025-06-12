@@ -1,5 +1,6 @@
 import ai from "./ai.png";
 import atlassian from "./atlassian.png";
+import blog01 from "./blog01.png";
 import dropbox from "./dropbox.png";
 import google from "./google.png";
 import logo from "./logo.svg";
@@ -18,4 +19,5 @@ export {
 	google,
 	dropbox,
 	possibility,
+	blog01,
 };
