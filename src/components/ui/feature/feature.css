@@ -3,7 +3,7 @@
   /* justify-content: space-between; */
   align-items: flex-start;
   width: 100%;
-  margin: 1rem;
+  padding: 1rem;
 }
 
 .feature__title {
@@ -32,7 +32,6 @@
 .feature__text {
   flex: 2;
   max-width: 390px;
-  display: flex;
 }
 
 .feature__text p {
